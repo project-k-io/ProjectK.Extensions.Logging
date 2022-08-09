@@ -8,6 +8,9 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/project-k-io/ProjectK.Extensions.Logging</RepositoryUrl>
     <PackageTags>Logging</PackageTags>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>## v.1.0.1 
+- Updated to latest nuget packages</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
