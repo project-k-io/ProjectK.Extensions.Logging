@@ -6,7 +6,7 @@ namespace ProjectK.Extensions.Logging;
 public static class LoggerExtensions
 {
     /// <summary>
-    /// Global Logger Extension
+    /// Global Logger2 Extension
     /// </summary>
     /// <param name="logger"></param>
     /// <param name="e"></param>
