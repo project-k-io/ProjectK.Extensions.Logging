@@ -8,6 +8,7 @@ public class LogManager
 {
     private static IServiceProvider _provider;
 
+    // Test1
     public LogManager(IServiceProvider provider)
     {
         _provider = provider;
