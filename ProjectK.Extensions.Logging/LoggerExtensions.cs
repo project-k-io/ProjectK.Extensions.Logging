@@ -12,6 +12,7 @@ public static class LoggerExtensions
     /// <param name="e"></param>
     public static void LogError(this ILogger logger, Exception e)
     {
+        // More temp comments
         logger.Log(LogLevel.Error, e.Message);
         var stacks = e.StackTrace.Split("\r\n");
         foreach (var stack in stacks) logger.Log(LogLevel.Error, stack);
