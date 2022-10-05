@@ -5,6 +5,11 @@ namespace ProjectK.Extensions.Logging;
 
 public static class LoggerExtensions
 {
+    /// <summary>
+    /// Global Logger Extension
+    /// </summary>
+    /// <param name="logger"></param>
+    /// <param name="e"></param>
     public static void LogError(this ILogger logger, Exception e)
     {
         logger.Log(LogLevel.Error, e.Message);
